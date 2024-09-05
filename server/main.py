@@ -14,7 +14,8 @@ def handle_message():
     response = co.chat(
         message=user_input,
         model="command-r-plus",
-        preamble="You are an expert on geography, be more specific"
+        preamble="Be more specific"
+        # preamble="You are an expert on geography, be more specific"
     )
 
     # print(response)

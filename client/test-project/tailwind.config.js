@@ -7,9 +7,18 @@ module.exports = {
   plugins: [
     require('daisyui'),
   ],
-  // daisyui:{
-  //   themes:["night"],
-  // }
+  daisyui:{
+    themes: [
+      {
+        mytheme: {
+          "primary": "#FFFFFF",
+          "secondary": "#eab308",
+          "base-100": "#ffffff",
+          "base-300": "#f5f5f4"
+        },
+      },
+    ],
+  }
 }
 
 

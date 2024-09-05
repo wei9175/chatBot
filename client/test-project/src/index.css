@@ -15,3 +15,8 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.submit-button{
+  background-color: #eab308;
+}
